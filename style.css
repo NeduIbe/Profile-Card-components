@@ -1,0 +1,92 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    width: 25%;
+    padding: 5px;
+    margin: 10% 37.5% 0 37.5%;
+    border-radius: 10px;
+}
+
+.card {
+    text-align: center;
+    margin: 5%;
+    width: 95%;
+}
+
+.cardup {
+    background-image: url(./images/bg-pattern-card.svg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img {
+    border-radius: 50px;
+    border: 5px solid white;
+    position: relative;
+    top: 50px;
+}
+
+.carddown {
+    padding-top: 40px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: auto;
+}
+
+.list {
+    display: flex;
+    width: 90%;
+    padding: 0 5% 0 5%;
+}
+
+@media screen and (max-width: 920px) {
+    .card {
+        width: 100%;
+        margin: 0;
+    }
+
+    .list {
+        display: flex;
+        width: 90%;
+        padding: 0 5% 0 5%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 40%;
+        margin: 10% 30% 0 30%;
+    }
+
+    .list {
+        width: 80%;
+        margin: 0 5% 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 70%;
+        margin: 10% 15% 0 15%;
+    }
+
+    .list{
+        width: 80%;
+        margin: 0 5% 0;
+    }
+    .list p{
+        margin: 5px;
+    }
+}
+@media screen and (min-width: 1025px){
+    .list{
+        width: 80%;
+        margin: 5%;
+    }
+}
